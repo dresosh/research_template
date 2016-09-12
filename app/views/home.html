@@ -1,0 +1,20 @@
+<section class="research-container">
+  <div class="container">
+    <h1>Web Research</h1>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search" ng-model="search" style="width: 400px;">
+        </div>
+        <ol>
+          <li ng-repeat="site in main.websites | filter: search">
+            <a href="{{site.url}}" target="_blank">{{site.name}}</a>
+            <p>{{site.about}}</p>
+            <img ng-src="app/imgs/{{site.img}}" alt="{{site.name}}" class="img-responsive">
+            <br>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>

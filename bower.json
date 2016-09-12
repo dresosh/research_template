@@ -1,0 +1,22 @@
+{
+  "name": "presentation",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "Andre Soschinski"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/dresosh/bash_profile",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.1"
+  }
+}
